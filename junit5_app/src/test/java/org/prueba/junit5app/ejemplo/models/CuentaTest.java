@@ -10,6 +10,10 @@ import java.util.Properties;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Esto es creado por Jahir SR M
+ * **/
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class CuentaTest {
 
