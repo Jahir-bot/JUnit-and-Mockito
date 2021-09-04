@@ -1,0 +1,3 @@
+org\prueba\junit5app\ejemplo\exceptions\DineroInsuficienteException.class
+org\prueba\junit5app\ejemplo\models\Cuenta.class
+org\prueba\junit5app\ejemplo\models\Banco.class
