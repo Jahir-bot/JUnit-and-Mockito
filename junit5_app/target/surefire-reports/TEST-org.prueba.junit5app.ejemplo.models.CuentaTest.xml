@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.18" tests="21" errors="0" skipped="5" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Material of School\Udemy\junit5_app\target\test-classes;C:\Material of School\Udemy\junit5_app\target\classes;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jsanromm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jsanromm\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\jsanromm\AppData\Local\Temp\surefire9900797627448990062\surefirebooter3110979199165151732.jar C:\Users\jsanromm\AppData\Local\Temp\surefire9900797627448990062 2021-09-24T18-35-45_606-jvmRun1 surefire18343925950525624403tmp surefire_012968741919782251537tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Material of School\Udemy\junit5_app\target\test-classes;C:\Material of School\Udemy\junit5_app\target\classes;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jsanromm\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jsanromm\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\jsanromm\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jsanromm"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Material of School\Udemy\junit5_app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\jsanromm\AppData\Local\Temp\surefire9900797627448990062\surefirebooter3110979199165151732.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="jsanromm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\jsanromm\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jsanromm\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Material of School\Udemy\junit5_app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Material of School\apache-maven-3.8.1\bin;C:\Users\jsanromm\AppData\Local\Microsoft\WindowsApps;C:\Users\jsanromm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jsanromm\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCreditoCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.034"/>
+  <testcase name="testProcesadores" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+  <testcase name="testNoWindows" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="soloJdk15" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="Disabled on JRE version: 11.0.11"/>
+  </testcase>
+  <testcase name="testNo64" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="System property [os.arch] with value [amd64] does not match regular expression [.*32.*]"/>
+  </testcase>
+  <testcase name="testDebitoCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+  <testcase name="testSaldoCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.002"/>
+  <testcase name="testSoloLinuxMac" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+  <testcase name="testJavaHome" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+  <testcase name="testTeferenciaCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0"/>
+  <testcase name="testJavaVersion" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+  <testcase name="testDineroInsufucienteExceptioCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.003"/>
+  <testcase name="soloNoJdk15" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.002"/>
+  <testcase name="testTranferirDineroCuentas" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.002"/>
+  <testcase name="testRelacionBancoCuentas" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.008"/>
+  <testcase name="soloJdk8" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0">
+    <skipped message="Disabled on JRE version: 11.0.11"/>
+  </testcase>
+  <testcase name="imprimirSystemProperties" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.053"/>
+  <testcase name="testSolo64" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0"/>
+  <testcase name="imprimirVariablesAmbiente" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.014"/>
+  <testcase name="testNombreCuenta" classname="org.prueba.junit5app.ejemplo.models.CuentaTest" time="0.001"/>
+</testsuite>

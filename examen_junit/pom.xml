@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.prueba.junitapp.ejemplo</groupId>
-    <artifactId>junit5_app</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>examen_junit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!-- PLUGIN PARA JACOCO Y VER LA COBERTURA DE CÓDIGO -->
@@ -18,7 +18,7 @@
                 <!-- CONFIGURACION PARA JACOCO Y EXCLUIR LAS CLASES QUE NO SE QUIERE TESTEAR -->
                 <configuration>
                     <excludes>
-                        <exclude>org/prueba/junit5app/ejemplo/models/Cuenta.class</exclude>
+                        <exclude>org/prueba/junit5app/ejemplo/models/Universidad.class</exclude>
                     </excludes>
                 </configuration>
                 <!-- CONFIGURACION PARA JACOCO -->

@@ -6,6 +6,7 @@ import org.junit.jupiter.api.condition.*;
 import org.prueba.junit5app.ejemplo.exceptions.DineroInsuficienteException;
 
 import java.math.BigDecimal;
+import java.util.Map;
 import java.util.Properties;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -209,4 +210,24 @@ public class CuentaTest {
     @EnabledIfSystemProperty(named = "os.arch", matches = ".*32.*")
     public void testNo64() {}
 
+    @Test
+    public void imprimirVariablesAmbiente() {
+        Map<String, String> getenv = System.getenv();
+        getenv.forEach((k, v)->System.out.println(k + " = "+ v));
+    }
+
+    @Test
+    @EnabledIfEnvironmentVariable(named = "JAVA_HOME",
+            matches = ".*jdk-11.0.11.*")
+    public void testJavaHome() {
+    }
+
+    @Test
+    @EnabledIfEnvironmentVariable(named = "NUMBER_OF_PROCESSORS", matches = "8")
+    public void testProcesadores()
+    {}
+
+    /*@Test
+    @EnabledIfEnvironmentVariable(named = "ENVIROMENT", matches = "")
+    public void testEnv() {}*/
 }
